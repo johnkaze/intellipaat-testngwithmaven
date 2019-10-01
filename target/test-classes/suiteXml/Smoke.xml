@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="AutomationTest" parallel="classes" thread-count="2">
+
+    <test name="NewToursDemoTest">
+
+        <classes>
+
+            <class name="automation.NewToursDemoTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
